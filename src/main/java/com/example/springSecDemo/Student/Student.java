@@ -18,4 +18,12 @@ public class Student {
         this.studentId = studentId;
         this.studentName = studentName;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentId=" + studentId +
+                ", studentName='" + studentName + '\'' +
+                '}';
+    }
 }
